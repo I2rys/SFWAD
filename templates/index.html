@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Flask web application demonstration</title>
+  </head>
+  <body>
+    <div align="center">
+      {% if name %}
+        <h1>Hello {{ name }}</h1>
+      {% else %}
+        <h1>Hello Anonymous</h1>
+      {% endif %}
+    </div>
+  </body>
+</html>
